@@ -16,7 +16,7 @@ His youtube channel https://www.youtube.com/@fauux and his about me page https:/
 # Font
 For terminal im using Iosevka and for status bar it is Terminus. You must install them manually.
 # Setup
-Just drop contents of .config dir into yours and everything else into home directory, also check files .config/i3/paper.py(you need to change USERNAME to yours), .config/i3/init.sh (There is some lines of code for keyboard and multiple monitor setup).
+Just drop contents of .config dir into yours and everything else(except ly dir) into home directory, also check files .config/i3/paper.py(you need to change USERNAME to yours), .config/i3/init.sh (There is some lines of code for keyboard and multiple monitor setup).
 Check .config/i3status/config to change VPN info to WIFI info, for example, and check .config/picom/config to change opacity
 
 You should also make changes in .config/i3/config file, because it has some crazy keybindings.
