@@ -1,5 +1,5 @@
 # Affected apps
-Theme is made for tmux vim users so tmux and vim are changed a little bit. Terminal emulator is kitty.
+Theme is made for tmux vim users so tmux and vim are changed a little bit. Terminal emulator is kitty. And session manager is ly.
 # Required apps
 i3-wm,
 i3status,
@@ -20,6 +20,8 @@ Just drop contents of .config dir into yours and everything else into home direc
 Check .config/i3status/config to change VPN info to WIFI info, for example, and check .config/picom/config to change opacity
 
 You should also make changes in .config/i3/config file, because it has some crazy keybindings.
+
+
 # Quick notes
 win+r to change wallpaper(It is also changed whenever i3 restarted)
 
