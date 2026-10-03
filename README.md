@@ -41,6 +41,10 @@ win+alt+e for normal mode
 
 win+w for resize mode
 
+win+f for file manager(default nautilus)
+
+win+shift+f for fullscreen
+
 ## tmux changes
 ctrl+space to enter command mode or how does it called
 Also vim theme is only working inside tmux idk why and I don't really care
