@@ -1,0 +1,32 @@
+backend = "glx";
+
+#opacity
+active-opacity = 1;
+inactive-opacity = 0.8;
+opacity-rule = [
+	"100:class_g = 'kitty' && !focused",
+	"100:class_g = 'kitty' && focused",
+	"96:class_g = 'discord' && focused",
+	"96:class_g = 'firefox' && !focused",
+	"100:class_g = 'firefox' && focused",
+	"100:class_g = 'i3lock'",
+	"100:class_g = 'gimp'",
+	"96:class_g = 'zen' && !focused",
+	"100:class_g = 'zen' && focused"
+]
+		
+
+
+#blurring
+blur-background = true;
+blur-method = "dual_kawase";
+blur-strength = 0.7;
+
+
+#shadows
+shadow = false;
+shadow-radius = 12;
+shadow-opacity = 0.75;
+shadow-offset-x = -15;
+
+#corner-radius = 10
